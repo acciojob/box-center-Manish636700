@@ -1,11 +1,14 @@
-.box{
+div.box{
 	height:200px;
 	width:200px;
 	background-color:lightblue;
 	border: 2px solid black;
 	display:flex;
 	justify-content:center;
-	align-items:center;
-	
+	align-items:center;	
 	color:purple;
+
+	position:relative;
+	top:100px;
+	left:100px;
 }
